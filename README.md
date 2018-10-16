@@ -34,46 +34,87 @@ git config --global user.email
 email@address.com
 
 git init
+
 git config --list 
+
 git clone
+
 git --help
+
 git add filename
+
 git add .
+
 git commit -m "any message"
+
 git commit -a -m "anymessage"
+
 git push
+
 git pull
+
 git log
+
 git status
+
 git remote add anyname url_of_empty_repository
+
 git push origin master
+
 git branch branchname
+
 git checkout branchname
+
 git merge branchname1 branchname2 (master stl)master
+
 git rebase branchname1 branchname2
+
 git branch -m old_branch_name new_branch_name // branch rename
+
 git branch -d branchname1 //delete the merged branch
+
 git branch -d -r origin/branch_name origin/branch_name origin // to delete the remote branch
+
 git push origin --delete branchname  // delete the mranch from remote
+
 git diff
+
 git revert HEAD
+
 git reset
+
 git resetgit push origin master --force
+
 git log --graph --oneline --decorate
+
 git --help
+
 git --help command
+
 git blame filename
+
 git clean -df
+
 git -n clean
+
 git -dn clean
+
 git ls-files --stage
+
 git ls-files --cached
+
 git ls-files --modified
+
 git ls-files --others
+
 git ls-files --deleted
+
 git ls-files --unmergerd
+
 git ls-files --killed
+
 git format-patch COMMIT_ID
+
 git fetch origin
 
 
@@ -83,7 +124,13 @@ git fetch origin
 ANT COMMANDS
 
 ant clean
-ant
+
+ant validate
+
+ant test
+
+ant deploy
+
 ant compile
 ------------------------------------------------------------------------------------------------------------------------
 MAVEN COMMANDS
